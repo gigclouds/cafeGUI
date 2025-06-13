@@ -1,10 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example</groupId>
+  <groupId>com.cafe</groupId>
   <artifactId>cafeGUI</artifactId>
   <version>1.0</version>
 
@@ -16,7 +16,6 @@
   </properties>
 
   <dependencies>
-    <!-- JavaFX modules -->
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
@@ -36,7 +35,7 @@
 
   <build>
     <plugins>
-      <!-- Compiler Plugin -->
+      <!-- Java compiler plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -46,7 +45,7 @@
         </configuration>
       </plugin>
 
-      <!-- JavaFX Plugin -->
+      <!-- JavaFX Maven plugin -->
       <plugin>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-maven-plugin</artifactId>
@@ -59,7 +58,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>your.main.ClassNameHere</mainClass>
+          <mainClass>com.cafe.CafeGUI</mainClass>
         </configuration>
       </plugin>
     </plugins>
