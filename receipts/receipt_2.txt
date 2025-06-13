@@ -1,0 +1,20 @@
+=====================================
+         RESTAURANT RECEIPT          
+=====================================
+Order ID: 2
+Date: 2025-06-13 16:19:51
+-------------------------------------
+Customer Name: bobo
+Order Type: Dine In
+Table Number: 1
+Payment Method: Cash
+-------------------------------------
+Items Ordered:
+- Chocolate (Marshmallows) x1 @ RM2.00 = RM2.75
+- Sandwich x1 @ RM3.50 = RM3.50
+- Gepuk Rice x1 @ RM6.00 = RM6.00
+-------------------------------------
+Total: RM 12.25
+Status: Pending
+Estimated Time: 15 minutes
+=====================================

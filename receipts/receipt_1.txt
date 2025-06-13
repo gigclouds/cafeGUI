@@ -1,0 +1,20 @@
+=====================================
+         RESTAURANT RECEIPT          
+=====================================
+Order ID: 1
+Date: 2025-06-13 16:17:19
+-------------------------------------
+Customer Name: asna
+Order Type: Dine In
+Table Number: 12
+Payment Method: Cash
+-------------------------------------
+Items Ordered:
+- Sandwich x1 @ RM3.50 = RM3.50
+- Chocolate (Whipped Cream) x1 @ RM2.00 = RM3.00
+- Mee Goreng x1 @ RM6.00 = RM6.00
+-------------------------------------
+Total: RM 12.50
+Status: Pending
+Estimated Time: 15 minutes
+=====================================
